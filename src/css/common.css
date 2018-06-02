@@ -35,18 +35,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-img, fieldset { border: none; }
-.left { float: left; }
-.right { float: right; }
+
 hr{
 clear:both;
-}
-.clear:after{
-    content:".";
-    display:block;
-    height:0;
-    clear:both;
-    visibility:hidden;
 }
 * html .clear{height:1%}/*ie5+ie6*/
 *:first-chile+html .clear{min-height:1px;}/*ie7*/

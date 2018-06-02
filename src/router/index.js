@@ -8,6 +8,8 @@ import DeveloperCommunity from '@/components/developer_community'
 import DeveloperPlatform from '@/components/development_platform'
 import File from '@/components/file'
 import Footer from '@/components/footer'
+import Login from '@/components/login'
+import Register from '@/components/register'
 
 
 
@@ -59,6 +61,16 @@ export default new Router({
       path: '/footer',
       name: 'footer',
       component: Footer//文档
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     }
   ]
 })
